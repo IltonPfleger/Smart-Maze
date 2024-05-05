@@ -27,5 +27,7 @@ Todo o projeto é feito apenas com **SDL/SDL2** e **C** puro.
 ## Outras informações:
 
 * Os parâmetros gerais das funções podem ser alterados nas definições do arquivo **main.c**
+  
+* Não é necessário rodar os algoritmos em threads diferentes, fiz isso apenas para que a visualização fosse possível e não bloqueasse a thread principal onde está o main loop do SDL2.
 
 * Fique a vontade para mandar ideias, sugestões, dúvidas e requests. 
